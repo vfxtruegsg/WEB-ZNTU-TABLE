@@ -1,0 +1,58 @@
+/* COMMON SET */
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 768px;
+  padding: 64px 16px;
+  margin: 0 auto;
+}
+
+/* TABLE */
+
+table {
+  width: 768px; /* Устанавливаем фиксированную ширину 768px */
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+td {
+  border: 2px solid black;
+  height: 100px; /* Высота ячеек для визуализации */
+}
+
+.header td {
+  background-color: #d3d3d3; /* Светло-серый фон для верхней строки */
+}
