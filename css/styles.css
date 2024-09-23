@@ -43,16 +43,29 @@ p {
 /* TABLE */
 
 table {
-  width: 768px; /* Устанавливаем фиксированную ширину 768px */
+  width: 768px;
   border-collapse: collapse;
   border: 2px solid black;
 }
 
 td {
   border: 2px solid black;
-  height: 100px; /* Высота ячеек для визуализации */
+  height: 100px;
 }
 
 .header td {
-  background-color: #d3d3d3; /* Светло-серый фон для верхней строки */
+  background-color: #d3d3d3;
+}
+
+.top-td:hover,
+.top-td:active {
+  background-color: antiquewhite;
+}
+
+.bottom-td {
+  transition: background-color 2000ms;
+}
+
+.bottom-td:hover {
+  background-color: #f7b5b5;
 }
